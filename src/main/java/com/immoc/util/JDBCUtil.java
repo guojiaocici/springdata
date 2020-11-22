@@ -12,6 +12,7 @@ public class JDBCUtil {
 //        String user="root" ;
 //        String password="root";
 //        String driverClass="com.mysql.jdbc.Driver";
+        //add test
        InputStream inputStream= JDBCUtil.class.getClassLoader().getResourceAsStream("db.properties");
         Properties properties=new Properties();
         properties.load(inputStream);
